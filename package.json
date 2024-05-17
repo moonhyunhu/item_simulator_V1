@@ -4,6 +4,9 @@
   "main": "index.js",
   "license": "MIT",
   "type": "module",
+  "scripts": {
+    "format": "prettier --write *.js **/*.js"
+  },
   "dependencies": {
     "express": "^4.19.2",
     "joi": "^17.13.1",
